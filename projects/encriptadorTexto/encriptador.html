@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="css/estilosEncriptador.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <div id="header-wrapper">
+            <a href="https://www.linkedin.com/in/rodrigo-galante-3263161a7/" target="_blank"><img src="images/linkedin.png" width="30px"></a>
+            <a href="https://github.com/RodrigoG24" target="_blank"><img src="images/github.png" width="30px"></a>
+            <h1 id="h1Header">Encriptador de Texto con JavaScript</h1>
+            <a id="logoAlura" href="https://www.aluracursos.com/challenges/oracle-one/semana01y02-construye-un-encriptador-texto-con-javascript" target="_blank"><img src="images/logoAluraCursos.png" width="30px"></a>
+        </div>
+    </header>
+    
+    <main class="container">
+        <video class="video" id="video1" src="images/earth.mp4" autoplay="true" muted="true" loop="true"></video>
+        <div class=encriptador>
+                <textarea id="pasteArea" class= "textoOriginal" name="texto" cols=30 rows=10 placeholder="Ingrese el texto aquí..." ></textarea>
+                <button class= "botonEncriptar" id="encriptar" >Encriptar</button>
+                <button class= "botonDesencriptar" id="desencriptar" >Desencriptar</button>
+                <button class="botonPegar" id="paste"">Pegar</button>         
+        </div>			
+        <div class=resultado>
+                <h1 class="tituloResultado">Resultado</h1>
+                <textarea id="textoEncriptado" class= "textoEncriptado" cols=30 rows=10></textarea>
+                <button class= "botonCopiar" id="copiar">Copiar</button>
+        </div>				
+    </main>
+
+    <footer>
+        <div >
+            <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+            <small>Introduzca solo letras minúsculas y sin acentos</small>
+            <p class="developed">Desarrollado por Rodrigo Galante [RodrigoG24]</p><br>
+        </div>
+    </footer>
+
+    <script src="js/encriptador.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!--  seccion navbar -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About Me</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="index.html" class="menu-btn"><i class="fas fa-globe" ></i></a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+     <!--  seccion inicio -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hi, my name is</div>
+                <div class="text-2">Rodrigo Galante</div>
+                <div class="text-3">And I am a <span class="typing"></span></div>
+                <a href="#">Contact me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--  seccion sobre mi -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/perfil.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I am Rodrigo and i am a <span class="typing-2"></span></div>
+                    <p>I am currently a student of Bachelor of Systems and a student in 
+                       Superior Technician of Web Development and Digital Applications.
+                       Also im constantly learning and training throught the Oracle Next Education Program
+                       and different courses.
+                    </p>
+                    <a href="curriculum/CV.pdf" download="CV/Resume">Download CV</a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!--  seccion proyectos -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My projects</h2>
+            <div class="projects-content">
+                
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Countdown Timer</div>
+                        <p>Simple project using HTML,CSS and JS in which a countdown 
+                            is created for a company that is about to open in a specified date.</p>
+                        <img src="images/proyecto1.jpg">
+                        <div><a class="enlace" href="projects/simplecountdownjs/index.html" target="_blank">Go to project</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Design App with C++</div>
+                        <p>University Project made with C++ evaluated by the teachers
+                            of the institution and focused on loans.</p>
+                        <video src="videos/proyecto.mp4" width="500" height="300" controls autoplay></video> 
+                    </div>
+                </div>
+
+                 
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Basic Chronometer with JS</div>
+                        <img src="images/proyecto3.jpg"> 
+                        <div><a class="enlace" href="projects/Timer/index.html" target="_blank">Go to project</a></div>      
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Design of Web Pages</div>
+                        <p>Multiple practices in different types of web pages design.</p>
+                        <img class="box-image-2" src="images/proyecto2.jpg">
+                        <div><a class="enlace" href="images/proyecto2.jpg" target="_blank">Open full image</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Oracle Next Education Project (Alura)</div>
+                        <p>JavaScript course project in which a program is performed to add new patients and calculate their BMI.</p>
+                        <img src="images/proyecto4.jpg">
+                        <div><a class="enlace" href="projects/buonaVita/index.html" target="_blank">Go to project</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Oracle Next Education Challenge (Alura)</div>
+                        <p>It consisted of creating a text encrypter/decrypter in HTML, CSS and JavaScript.</p>
+                        <video src="videos/encriptador.mp4" width="500" height="300" controls autoplay muted></video> 
+                        <div><a class="enlace" href="projects/encriptadorTexto/encriptador.html" target="_blank">Go to project</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--  seccion habilidades -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My experience and creative skills.</div>
+                    <p>I have experience in both hardware and software, i did practices 
+                       with programming languages like Python and C++, i also have
+                       experience in Web Development with HTML,CSS and Javascript.
+                       On the other hand, i also learned in the world of videogames with
+                       Unity and C# besides experimenting with Arduino and Assembler 
+                       in my secondary and university studies.
+                    </p>
+                    
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="line javascript"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="line c++"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  seccion de contacto -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Contact me</div>
+                    <p>Contact me by mail through this form or by other means (included in my resume).
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Rodrigo Galante</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Adress</div>
+                                <div class="sub-title">Buenos Aires, Argentina.</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">rodrigogalante24@hotmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Send me a message</div>
+                    <form name="contact" netlify>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Nombre" name="nombre" id="nombre" autocomplete="off" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" name="email" id="email" autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Asunto" name="asunto" id="asunto" autocomplete="off" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe el asunto.." name="mensaje" id="mensaje" autocomplete="off" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion footer -->
+    <footer>
+        <span>Created by <a href="#">RodrigoGalante</a> |  <span class="far fa-copyright"></span>2022 - All rights reserved.</span>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
